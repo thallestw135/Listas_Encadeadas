@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         ListaDupla lista = new ListaDupla();
 
+        // Testes, faça como desejar ou copie abaixo.
         System.out.println("-------------------------------");
         lista.adicionar("Homer");
         lista.adicionar("Maggie");
@@ -43,7 +44,8 @@ public class Main {
         lista.adicionarNoComeco("Bart");
         System.out.println(lista.imprimir() + "\ntamanho da lista: " + lista.tamanho());
 
-        boolean[] check_0 = { lista.contem("Marge"), lista.contem("Homer"), lista.contem("Bart"), lista.contem("Maggie") };
+        boolean[] check_0 = { lista.contem("Marge"), lista.contem("Homer"), lista.contem("Bart"),
+                lista.contem("Maggie") };
         System.out.println(Arrays.toString(check_0) + "\ntamanho da lista: " + lista.tamanho());
 
         lista.esvaziaLista();
